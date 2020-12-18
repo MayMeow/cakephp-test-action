@@ -3,7 +3,7 @@ author: 'May Meow'
 description: 'Containerized environment to test CakePHP actions'
 branding:
   icon: 'cloud-snow'
-  colod: 'purple'
+  color: 'purple'
 runs:
   using: 'docker'
   image: 'Dockerfile'
