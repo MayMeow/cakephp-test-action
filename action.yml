@@ -7,3 +7,6 @@ branding:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+inputs: 
+  repo-token:
+    description: 'The GITHUB_TOKEN secret'
