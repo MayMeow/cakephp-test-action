@@ -1,0 +1,6 @@
+name: 'CakePHP Test'
+author: 'May Meow'
+description: 'Containerized environment to test CakePHP actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
