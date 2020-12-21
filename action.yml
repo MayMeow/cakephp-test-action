@@ -2,8 +2,8 @@ name: 'CakePHP Test'
 author: 'May Meow'
 description: 'Containerized environment to test CakePHP actions'
 branding:
-  icon: 'cloud-snow'
-  color: 'purple'
+  icons: 'cloud-snow'
+  colors: 'purple'
 runs:
   using: 'docker'
   image: 'Dockerfile'
