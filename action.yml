@@ -2,8 +2,8 @@ name: 'PHPUnit Test by MayMeow'
 author: 'May Meow'
 description: 'Containerized environment to test PHP apps'
 branding:
-  icons: 'check-square'
-  colors: 'gray-dark'
+  icon: 'check-square'
+  color: 'gray-dark'
 runs:
   using: 'docker'
   image: 'Dockerfile'
