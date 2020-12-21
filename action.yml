@@ -1,12 +1,9 @@
-name: 'CakePHP Test'
+name: 'PHPUnit Test by MayMeow'
 author: 'May Meow'
-description: 'Containerized environment to test CakePHP actions'
+description: 'Containerized environment to test PHP apps'
 branding:
-  icons: 'cloud-snow'
-  colors: 'purple'
+  icons: 'check-square'
+  colors: 'gray-dark'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-inputs: 
-  repo-token:
-    description: 'The GITHUB_TOKEN secret'
